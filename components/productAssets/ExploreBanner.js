@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import Link from 'next/link';
 
 export default class ExploreBanner extends React.Component {
@@ -91,3 +91,4 @@ export default class ExploreBanner extends React.Component {
     );
   }
 }
+ */
