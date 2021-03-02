@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import ProductRow from '../products/ProductRow';
@@ -42,3 +42,4 @@ ProductsBanner.defaultProps = {
 };
 
 export default connect(state => state)(ProductsBanner);
+ */
