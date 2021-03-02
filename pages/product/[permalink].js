@@ -51,7 +51,7 @@ class Product extends Component {
     return (
       <Root>
         <Head>
-          <title>{ product.name } | commerce</title>
+          <title>{ product.name } | Carmona's Western Wear</title>
         </Head>
 
         <div className="py-5 my-5">
