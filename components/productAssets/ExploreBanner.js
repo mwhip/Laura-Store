@@ -69,12 +69,6 @@ export default class ExploreBanner extends React.Component {
           <div ref={this.exploreContainer} className="custom-container py-md-5">
             <div className="row py-5">
               <div className="col-12 col-md-6 py-5">
-                <p
-                  className="font-size-display3 font-weight-light mb-4"
-                  style={{ maxWidth: '20rem' }}
-                >
-                  A new shopping experience
-                </p>
                 <div className="d-flex">
                 
                 </div>
