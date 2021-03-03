@@ -26,7 +26,6 @@ const Footer = () => (
           </p>
           <div className="position-relative">
             <input
-              className="borderbottom border-color-gray400 h-48 w-100 px-3"
               placeholder="512-739-0719"
             />
           </div>
