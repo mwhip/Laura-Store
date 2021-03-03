@@ -31,16 +31,6 @@ export default class ExploreBanner extends React.Component {
     }
     const dimensions = this.exploreContainer.current.getBoundingClientRect();
     const x = window.matchMedia('(min-width: 768px)');
-
-    if (x.matches) {
-      if (dimensions.top - window.innerHeight < 0 && dimensions.bottom > 0) {
-        const scrolledRatio =
-          (window.innerHeight - dimensions.top) / window.innerHeight - 1;
-
-        this.image.current.style.transform = `translateY(${-scrolledRatio *
-          100}px)`;
-      }
-    }
   }
 
   render() {
@@ -56,17 +46,6 @@ export default class ExploreBanner extends React.Component {
                     <div className="position-md-absolute right-0 left-0 bottom-0">
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Content */}
-          <div ref={this.exploreContainer} className="custom-container py-md-5">
-            <div className="row py-5">
-              <div className="col-12 col-md-6 py-5">
-                <div className="d-flex">
-                
                 </div>
               </div>
             </div>
