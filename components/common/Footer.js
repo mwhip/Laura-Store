@@ -25,9 +25,7 @@ const Footer = () => (
             Contact Information:
           </p>
           <div className="position-relative">
-            <input
-              placeholder="512-739-0719"
-            />
+            <h3>512-739-0719</h3>
           </div>
         </div>
       </div>
